@@ -7,19 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DED928382710F9C70058C961 /* BoxFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED928372710F9C70058C961 /* BoxFinderApp.swift */; };
+		DE14FD5B271190B20077CCF7 /* UserDefaults_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE14FD5A271190B20077CCF7 /* UserDefaults_extension.swift */; };
+		DE14FD5C271190B20077CCF7 /* UserDefaults_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE14FD5A271190B20077CCF7 /* UserDefaults_extension.swift */; };
+		DE8DD3BC2714AD5A0091131B /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8DD3BB2714AD480091131B /* ShareView.swift */; };
 		DED9283A2710F9C70058C961 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED928392710F9C70058C961 /* ContentView.swift */; };
 		DED9283C2710F9C90058C961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED9283B2710F9C90058C961 /* Assets.xcassets */; };
 		DED9283F2710F9C90058C961 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED9283E2710F9C90058C961 /* Preview Assets.xcassets */; };
+		DED928472710F9E20058C961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED928462710F9E20058C961 /* AppDelegate.swift */; };
+		DED9284C2710FC210058C961 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9284B2710FC210058C961 /* main.swift */; };
+		DED9284F2710FFBB0058C961 /* RowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9284E2710FFBB0058C961 /* RowButton.swift */; };
+		DEE9095127110C0F002DB828 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = DEE9095027110C0F002DB828 /* icon.icns */; };
+		DEE9095327110C0F002DB828 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE9095227110C0F002DB828 /* ShareViewController.swift */; };
+		DEE9095627110C0F002DB828 /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEE9095427110C0F002DB828 /* ShareViewController.xib */; };
+		DEE9095B27110C0F002DB828 /* Copy BoxFinder link.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DEE9094E27110C0F002DB828 /* Copy BoxFinder link.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DEE9095927110C0F002DB828 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DED9282C2710F9C70058C961 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEE9094D27110C0F002DB828;
+			remoteInfo = BoxFinderShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DEE9095C27110C0F002DB828 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DEE9095B27110C0F002DB828 /* Copy BoxFinder link.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		DE14FD5A271190B20077CCF7 /* UserDefaults_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults_extension.swift; sourceTree = "<group>"; };
+		DE8DD3BB2714AD480091131B /* ShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
 		DED928342710F9C70058C961 /* BoxFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DED928372710F9C70058C961 /* BoxFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxFinderApp.swift; sourceTree = "<group>"; };
 		DED928392710F9C70058C961 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DED9283B2710F9C90058C961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DED9283E2710F9C90058C961 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DED928402710F9C90058C961 /* BoxFinder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BoxFinder.entitlements; sourceTree = "<group>"; };
+		DED928462710F9E20058C961 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DED928482710FAE60058C961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DED9284B2710FC210058C961 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DED9284E2710FFBB0058C961 /* RowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowButton.swift; sourceTree = "<group>"; };
+		DEE9094E27110C0F002DB828 /* Copy BoxFinder link.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Copy BoxFinder link.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE9095027110C0F002DB828 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		DEE9095227110C0F002DB828 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		DEE9095527110C0F002DB828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ShareViewController.xib; sourceTree = "<group>"; };
+		DEE9095727110C0F002DB828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE9095827110C0F002DB828 /* BoxFinderShare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BoxFinderShare.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,13 +74,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DEE9094B27110C0F002DB828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE14FD592711909F0077CCF7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DE14FD5A271190B20077CCF7 /* UserDefaults_extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		DED9282B2710F9C70058C961 = {
 			isa = PBXGroup;
 			children = (
 				DED928362710F9C70058C961 /* BoxFinder */,
+				DEE9094F27110C0F002DB828 /* BoxFinderShare */,
 				DED928352710F9C70058C961 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				DED928342710F9C70058C961 /* BoxFinder.app */,
+				DEE9094E27110C0F002DB828 /* Copy BoxFinder link.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,11 +113,15 @@
 		DED928362710F9C70058C961 /* BoxFinder */ = {
 			isa = PBXGroup;
 			children = (
-				DED928372710F9C70058C961 /* BoxFinderApp.swift */,
+				DE14FD592711909F0077CCF7 /* Extensions */,
+				DED9284D2710FFAF0058C961 /* Components */,
+				DED928482710FAE60058C961 /* Info.plist */,
 				DED928392710F9C70058C961 /* ContentView.swift */,
 				DED9283B2710F9C90058C961 /* Assets.xcassets */,
 				DED928402710F9C90058C961 /* BoxFinder.entitlements */,
 				DED9283D2710F9C90058C961 /* Preview Content */,
+				DED928462710F9E20058C961 /* AppDelegate.swift */,
+				DED9284B2710FC210058C961 /* main.swift */,
 			);
 			path = BoxFinder;
 			sourceTree = "<group>";
@@ -69,6 +134,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DED9284D2710FFAF0058C961 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DED9284E2710FFBB0058C961 /* RowButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DEE9094F27110C0F002DB828 /* BoxFinderShare */ = {
+			isa = PBXGroup;
+			children = (
+				DEE9095027110C0F002DB828 /* icon.icns */,
+				DEE9095227110C0F002DB828 /* ShareViewController.swift */,
+				DEE9095427110C0F002DB828 /* ShareViewController.xib */,
+				DEE9095727110C0F002DB828 /* Info.plist */,
+				DEE9095827110C0F002DB828 /* BoxFinderShare.entitlements */,
+				DE8DD3BB2714AD480091131B /* ShareView.swift */,
+			);
+			path = BoxFinderShare;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,15 +165,34 @@
 				DED928302710F9C70058C961 /* Sources */,
 				DED928312710F9C70058C961 /* Frameworks */,
 				DED928322710F9C70058C961 /* Resources */,
+				DEE9095C27110C0F002DB828 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DEE9095A27110C0F002DB828 /* PBXTargetDependency */,
 			);
 			name = BoxFinder;
 			productName = BoxFinder;
 			productReference = DED928342710F9C70058C961 /* BoxFinder.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DEE9094D27110C0F002DB828 /* Copy BoxFinder link */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE9095F27110C0F002DB828 /* Build configuration list for PBXNativeTarget "Copy BoxFinder link" */;
+			buildPhases = (
+				DEE9094A27110C0F002DB828 /* Sources */,
+				DEE9094B27110C0F002DB828 /* Frameworks */,
+				DEE9094C27110C0F002DB828 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Copy BoxFinder link";
+			productName = BoxFinderShare;
+			productReference = DEE9094E27110C0F002DB828 /* Copy BoxFinder link.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +205,9 @@
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					DED928332710F9C70058C961 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DEE9094D27110C0F002DB828 = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
@@ -118,6 +226,7 @@
 			projectRoot = "";
 			targets = (
 				DED928332710F9C70058C961 /* BoxFinder */,
+				DEE9094D27110C0F002DB828 /* Copy BoxFinder link */,
 			);
 		};
 /* End PBXProject section */
@@ -132,6 +241,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DEE9094C27110C0F002DB828 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE9095627110C0F002DB828 /* ShareViewController.xib in Resources */,
+				DEE9095127110C0F002DB828 /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -139,12 +257,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE14FD5B271190B20077CCF7 /* UserDefaults_extension.swift in Sources */,
+				DED928472710F9E20058C961 /* AppDelegate.swift in Sources */,
 				DED9283A2710F9C70058C961 /* ContentView.swift in Sources */,
-				DED928382710F9C70058C961 /* BoxFinderApp.swift in Sources */,
+				DED9284F2710FFBB0058C961 /* RowButton.swift in Sources */,
+				DED9284C2710FC210058C961 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE9094A27110C0F002DB828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8DD3BC2714AD5A0091131B /* ShareView.swift in Sources */,
+				DE14FD5C271190B20077CCF7 /* UserDefaults_extension.swift in Sources */,
+				DEE9095327110C0F002DB828 /* ShareViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEE9095A27110C0F002DB828 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEE9094D27110C0F002DB828 /* Copy BoxFinder link */;
+			targetProxy = DEE9095927110C0F002DB828 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEE9095427110C0F002DB828 /* ShareViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEE9095527110C0F002DB828 /* Base */,
+			);
+			name = ShareViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DED928412710F9C90058C961 /* Debug */ = {
@@ -265,25 +415,29 @@
 		DED928442710F9C90058C961 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = BoxFinder/BoxFinder.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BoxFinder/Preview Content\"";
-				DEVELOPMENT_TEAM = ZZ56RU33C3;
+				DEVELOPMENT_TEAM = AU9T7HA2AB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BoxFinder/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fr.meaningful.BoxFinder;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.romainpenchenat.BoxFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -293,26 +447,86 @@
 		DED928452710F9C90058C961 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = BoxFinder/BoxFinder.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BoxFinder/Preview Content\"";
-				DEVELOPMENT_TEAM = ZZ56RU33C3;
+				DEVELOPMENT_TEAM = AU9T7HA2AB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BoxFinder/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fr.meaningful.BoxFinder;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.romainpenchenat.BoxFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DEE9095D27110C0F002DB828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BoxFinderShare/BoxFinderShare.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AU9T7HA2AB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BoxFinderShare/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BoxFinderShare;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.romainpenchenat.BoxFinder.BoxFinderShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DEE9095E27110C0F002DB828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BoxFinderShare/BoxFinderShare.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AU9T7HA2AB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BoxFinderShare/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BoxFinderShare;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.romainpenchenat.BoxFinder.BoxFinderShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -335,6 +549,15 @@
 			buildConfigurations = (
 				DED928442710F9C90058C961 /* Debug */,
 				DED928452710F9C90058C961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEE9095F27110C0F002DB828 /* Build configuration list for PBXNativeTarget "Copy BoxFinder link" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE9095D27110C0F002DB828 /* Debug */,
+				DEE9095E27110C0F002DB828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
