@@ -54,10 +54,8 @@ class ShareViewController: NSViewController {
             let sharePath = url.path.replacingOccurrences(of: dropboxFolderUrl.path, with: "").addingPercentEncoding(withAllowedCharacters: .urlPathAllowed) ?? ""
             let boxfinderPath = "boxfinder://root\(sharePath)"
             print(boxfinderPath)
-            let pasteboard = NSPasteboard.general
-            pasteboard.declareTypes([.string, .URL], owner: nil)
-            pasteboard.setString(boxfinderPath, forType: .string)
-            pasteboard.setString(boxfinderPath, forType: .URL)
+            NSPasteboard.general.copyBoxFinderUrl(path: boxfinderPath)
+            UserDefaults.appgroup?.savePathToHistory(boxfinderPath)
             self.message = "Link copied to the clipboard"
         }
     }
