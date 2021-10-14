@@ -52,7 +52,8 @@ class ShareViewController: NSViewController {
                 return
             }
             let sharePath = url.path.replacingOccurrences(of: dropboxFolderUrl.path, with: "").addingPercentEncoding(withAllowedCharacters: .urlPathAllowed) ?? ""
-            let boxfinderPath = "boxfinder:/\(sharePath)"
+            let boxfinderPath = "boxfinder://root\(sharePath)"
+            print(boxfinderPath)
             let pasteboard = NSPasteboard.general
             pasteboard.declareTypes([.string, .URL], owner: nil)
             pasteboard.setString(boxfinderPath, forType: .string)

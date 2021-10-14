@@ -54,7 +54,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     private func openInFinder(path:String) {
         var dropboxEndPath = path.removingPercentEncoding ?? ""
-        dropboxEndPath.removeFirst(12)
+        dropboxEndPath.removeFirst(17)
         guard let dropboxURL = UserDefaults.appgroup?.url(forKey: UserDefaults.KEY.dropboxFolderURL) else {
             #warning("alert if not found")
             return
