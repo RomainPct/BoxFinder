@@ -11,16 +11,21 @@ struct RowButton: View {
     
     var text:String
     var action: () -> Void
+    var centered:Bool = false
     
     var body: some View {
         Button(action: action) {
             HStack(alignment: .center) {
+                if centered {
+                    Spacer()
+                }
                 Text(text)
-                    .foregroundColor(Color.white)
+                    .font(.callout)
+                    .foregroundColor(Color.bfText)
                 Spacer()
             }
             .padding(.all, 8)
-            .background(Color.black)
+            .background(Color.bfZ1)
             .cornerRadius(4)
         }
         .buttonStyle(PlainButtonStyle())

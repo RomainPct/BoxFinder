@@ -13,12 +13,13 @@ struct ShareView: View {
     var getMessage: () -> String
     
     var body: some View {
-        VStack(alignment: .center, spacing: 16) {
+        VStack(alignment: .center, spacing: 8) {
             Text(getMessage())
-            Button(action: closeAction) {
-                Text("Close")
-            }
+            RowButton(text: "Close", action: closeAction, centered: true)
         }
+        .foregroundColor(Color.bfText)
+        .padding(.all, 24)
+        .background(Color.bfZ0.edgesIgnoringSafeArea(.all))
         .onAppear {
             if getMessage() == "Link copied to the clipboard" {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {

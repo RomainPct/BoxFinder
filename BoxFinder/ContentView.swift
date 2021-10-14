@@ -13,20 +13,33 @@ struct ContentView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 24) {
+            HStack {
+                Text("BoxFinder v0.2")
+                    .font(.headline)
+                Spacer()
+            }
+            .padding(.all, 16)
+            .background(Color.bfZ1)
             VStack(alignment: .leading, spacing: 8) {
-                Text("Dropbox folder v0.1")
-                    .lineLimit(0)
-                Text("(\(dropboxFolder?.path ?? "unknown"))")
-                    .lineLimit(0)
+                Text("Select your dropbox root folder in order to allow BoxFinder to create and open direct link to dropbox files.")
+                    .font(.body)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .lineLimit(6)
+                Text("Current folder : \(dropboxFolder?.path ?? "unknown")")
+                    .font(.caption)
                 RowButton(text: "Change dropbox root folder", action: pickDropboxRootAction)
             }
-            VStack(alignment: .leading, spacing: 8) {
-                RowButton(text: "Share the app", action: shareAction)
-                RowButton(text: "Contact developers", action: contactAction)
+            .padding(.horizontal, 16)
+            HStack(alignment: .center, spacing: 8) {
+//                RowButton(text: "Share the app", action: shareAction)
+//                RowButton(text: "Contact developers", action: contactAction)
                 RowButton(text: "Quit BoxFinder", action: exitAction)
             }
+            .padding(.horizontal, 16)
         }
-        .padding(.all, 16)
+        .padding(.bottom, 16)
+        .foregroundColor(Color.bfText)
+        .background(Color.bfZ0)
     }
     
     private func pickDropboxRootAction() {
@@ -35,17 +48,24 @@ struct ContentView: View {
         let folderChooserRectangle = CGRect(origin: folderChooserPoint, size: folderChooserSize)
         let folderPicker = NSOpenPanel(contentRect: folderChooserRectangle, styleMask: .utilityWindow, backing: .buffered, defer: true)
 
+        folderPicker.allowsMultipleSelection = false
         folderPicker.canChooseDirectories = true
         folderPicker.canChooseFiles = false
-        folderPicker.allowsMultipleSelection = false
         folderPicker.canDownloadUbiquitousContents = true
         folderPicker.canResolveUbiquitousConflicts = true
-
-        folderPicker.begin { response in
-            guard response == .OK else { return }
-            guard let folder = folderPicker.url else { return }
-            dropboxFolder = folder
-            UserDefaults.appgroup?.set(folder, forKey: UserDefaults.KEY.dropboxFolderURL)
+        
+        folderPicker.begin { _ in }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            folderPicker.close()
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                folderPicker.begin { response in
+                    guard response == .OK else { return }
+                    guard let folder = folderPicker.url else { return }
+                    dropboxFolder = folder
+                    UserDefaults.appgroup?.set(folder, forKey: UserDefaults.KEY.dropboxFolderURL)
+                }
+                folderPicker.orderFrontRegardless()
+            }
         }
     }
     
