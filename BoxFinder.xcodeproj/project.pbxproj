@@ -18,10 +18,15 @@
 		DE06659C2718CD02003EAA96 /* URLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06659B2718CD02003EAA96 /* URLManager.swift */; };
 		DE14FD5B271190B20077CCF7 /* UserDefaults_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE14FD5A271190B20077CCF7 /* UserDefaults_extension.swift */; };
 		DE14FD5C271190B20077CCF7 /* UserDefaults_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE14FD5A271190B20077CCF7 /* UserDefaults_extension.swift */; };
+		DE1AFCBF271A172E00F1BE01 /* LauncherAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1AFCBE271A172E00F1BE01 /* LauncherAppDelegate.swift */; };
 		DE66144927183906008A0333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED9283B2710F9C90058C961 /* Assets.xcassets */; };
 		DE66144B271839A8008A0333 /* Color_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE66144A271839A8008A0333 /* Color_extension.swift */; };
 		DE66144C27183E86008A0333 /* Color_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE66144A271839A8008A0333 /* Color_extension.swift */; };
 		DE66144D27183F6E008A0333 /* RowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9284E2710FFBB0058C961 /* RowButton.swift */; };
+		DE82BE83271A19150042A400 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE82BE82271A19150042A400 /* main.swift */; };
+		DE82BE85271A19B90042A400 /* BoxFinderLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = DE1AFCBC271A172E00F1BE01 /* BoxFinderLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DE82BE88271A19DD0042A400 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE82BE87271A19DD0042A400 /* ServiceManagement.framework */; platformFilter = maccatalyst; };
+		DE82BE8A271A1F9C0042A400 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE82BE89271A1F9C0042A400 /* Info.plist */; };
 		DE8DD3BC2714AD5A0091131B /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8DD3BB2714AD480091131B /* ShareView.swift */; };
 		DED9283A2710F9C70058C961 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED928392710F9C70058C961 /* ContentView.swift */; };
 		DED9283C2710F9C90058C961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED9283B2710F9C90058C961 /* Assets.xcassets */; };
@@ -46,6 +51,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		DE82BE84271A19920042A400 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				DE82BE85271A19B90042A400 /* BoxFinderLauncher.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DEE9095C27110C0F002DB828 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -69,7 +84,13 @@
 		DE0665972718C66F003EAA96 /* NSPasteboard_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSPasteboard_extension.swift; sourceTree = "<group>"; };
 		DE06659B2718CD02003EAA96 /* URLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLManager.swift; sourceTree = "<group>"; };
 		DE14FD5A271190B20077CCF7 /* UserDefaults_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults_extension.swift; sourceTree = "<group>"; };
+		DE1AFCBC271A172E00F1BE01 /* BoxFinderLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxFinderLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1AFCBE271A172E00F1BE01 /* LauncherAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherAppDelegate.swift; sourceTree = "<group>"; };
+		DE1AFCC7271A172F00F1BE01 /* BoxFinderLauncher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BoxFinderLauncher.entitlements; sourceTree = "<group>"; };
 		DE66144A271839A8008A0333 /* Color_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_extension.swift; sourceTree = "<group>"; };
+		DE82BE82271A19150042A400 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DE82BE87271A19DD0042A400 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		DE82BE89271A1F9C0042A400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE8DD3BB2714AD480091131B /* ShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
 		DED928342710F9C70058C961 /* BoxFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED928392710F9C70058C961 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,10 +110,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DE1AFCB9271A172E00F1BE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DED928312710F9C70058C961 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE82BE88271A19DD0042A400 /* ServiceManagement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,12 +189,33 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		DE1AFCBD271A172E00F1BE01 /* BoxFinderLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				DE1AFCBE271A172E00F1BE01 /* LauncherAppDelegate.swift */,
+				DE1AFCC7271A172F00F1BE01 /* BoxFinderLauncher.entitlements */,
+				DE82BE82271A19150042A400 /* main.swift */,
+				DE82BE89271A1F9C0042A400 /* Info.plist */,
+			);
+			path = BoxFinderLauncher;
+			sourceTree = "<group>";
+		};
+		DE82BE86271A19DD0042A400 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE82BE87271A19DD0042A400 /* ServiceManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DED9282B2710F9C70058C961 = {
 			isa = PBXGroup;
 			children = (
 				DED928362710F9C70058C961 /* BoxFinder */,
 				DEE9094F27110C0F002DB828 /* BoxFinderShare */,
+				DE1AFCBD271A172E00F1BE01 /* BoxFinderLauncher */,
 				DED928352710F9C70058C961 /* Products */,
+				DE82BE86271A19DD0042A400 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,6 +224,7 @@
 			children = (
 				DED928342710F9C70058C961 /* BoxFinder.app */,
 				DEE9094E27110C0F002DB828 /* Copy BoxFinder link.appex */,
+				DE1AFCBC271A172E00F1BE01 /* BoxFinderLauncher.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -229,6 +280,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DE1AFCBB271A172E00F1BE01 /* BoxFinderLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1AFCC8271A172F00F1BE01 /* Build configuration list for PBXNativeTarget "BoxFinderLauncher" */;
+			buildPhases = (
+				DE1AFCB8271A172E00F1BE01 /* Sources */,
+				DE1AFCB9271A172E00F1BE01 /* Frameworks */,
+				DE1AFCBA271A172E00F1BE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoxFinderLauncher;
+			productName = BoxFinderLauncher;
+			productReference = DE1AFCBC271A172E00F1BE01 /* BoxFinderLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
 		DED928332710F9C70058C961 /* BoxFinder */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DED928432710F9C90058C961 /* Build configuration list for PBXNativeTarget "BoxFinder" */;
@@ -237,6 +305,7 @@
 				DED928312710F9C70058C961 /* Frameworks */,
 				DED928322710F9C70058C961 /* Resources */,
 				DEE9095C27110C0F002DB828 /* Embed App Extensions */,
+				DE82BE84271A19920042A400 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -275,6 +344,9 @@
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
+					DE1AFCBB271A172E00F1BE01 = {
+						CreatedOnToolsVersion = 13.0;
+					};
 					DED928332710F9C70058C961 = {
 						CreatedOnToolsVersion = 13.0;
 					};
@@ -298,11 +370,20 @@
 			targets = (
 				DED928332710F9C70058C961 /* BoxFinder */,
 				DEE9094D27110C0F002DB828 /* Copy BoxFinder link */,
+				DE1AFCBB271A172E00F1BE01 /* BoxFinderLauncher */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DE1AFCBA271A172E00F1BE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE82BE8A271A1F9C0042A400 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DED928322710F9C70058C961 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -325,6 +406,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DE1AFCB8271A172E00F1BE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE82BE83271A19150042A400 /* main.swift in Sources */,
+				DE1AFCBF271A172E00F1BE01 /* LauncherAppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DED928302710F9C70058C961 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,6 +471,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DE1AFCC9271A172F00F1BE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BoxFinderLauncher/BoxFinderLauncher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AU9T7HA2AB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BoxFinderLauncher/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.romainpenchenat.BoxFinderLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DE1AFCCA271A172F00F1BE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BoxFinderLauncher/BoxFinderLauncher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AU9T7HA2AB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BoxFinderLauncher/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.romainpenchenat.BoxFinderLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		DED928412710F9C90058C961 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -619,6 +765,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DE1AFCC8271A172F00F1BE01 /* Build configuration list for PBXNativeTarget "BoxFinderLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1AFCC9271A172F00F1BE01 /* Debug */,
+				DE1AFCCA271A172F00F1BE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DED9282F2710F9C70058C961 /* Build configuration list for PBXProject "BoxFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

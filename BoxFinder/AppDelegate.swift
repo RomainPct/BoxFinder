@@ -45,10 +45,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     @objc func togglePopover(_ sender: AnyObject?) {
         if popover.isShown {
-            popover.performClose(sender)
+            closePopover()
         } else {
             openPopover()
         }
+    }
+    
+    func closePopover() {
+        popover.performClose(nil)
     }
     
     private func openPopover() {

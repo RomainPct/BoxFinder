@@ -48,6 +48,7 @@ struct HistoryCell: View {
     }
     
     private func loadThumbnail() {
+        return
         guard let fileURL = URLManager.boxFinderPathToFinderURL(path: path) else { return }
         let request = QLThumbnailGenerator.Request(fileAt: fileURL, size: CGSize(width: 48, height: 48), scale: 3, representationTypes: .thumbnail)
         QLThumbnailGenerator.shared.generateBestRepresentation(for: request) { thumbnail, error in
@@ -74,6 +75,7 @@ struct HistoryCell: View {
     
     private func openAction() {
         guard let appDelegate = NSApplication.shared.delegate as? AppDelegate else { return }
+        appDelegate.closePopover()
         appDelegate.openInFinder(path: path)
     }
     
