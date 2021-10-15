@@ -19,6 +19,9 @@ struct HomeTab: View {
                 }
             }
         }
+        .onReceive((NSApplication.shared.delegate as! AppDelegate).publisher) { _ in
+            self.history = UserDefaults.appgroup?.stringArray(forKey: UserDefaults.KEY.urlsHistory) ?? []
+        }
     }
     
 }

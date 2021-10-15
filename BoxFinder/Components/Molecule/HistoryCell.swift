@@ -6,11 +6,13 @@
 //
 
 import SwiftUI
+import QuickLookThumbnailing
 
 struct HistoryCell: View {
     
     @State var hovered = false
     @State var isCopied = false
+    @State var thumbnail:NSImage? = nil
     var path:String
     var fileName: String? {
         URL(string: path)?.lastPathComponent
@@ -18,6 +20,10 @@ struct HistoryCell: View {
     
     var body: some View {
         HStack {
+            if let thumbnail = thumbnail {
+                Image(nsImage: thumbnail)
+                    .frame(width: 40, height: 40)
+            }
             VStack(alignment: .leading) {
                 Text(fileName ?? "unknown")
                     .font(.body)
@@ -38,6 +44,19 @@ struct HistoryCell: View {
             hovered = isHovered
         }
         .onTapGesture(perform: openAction)
+        .onAppear(perform: loadThumbnail)
+    }
+    
+    private func loadThumbnail() {
+        guard let fileURL = URLManager.boxFinderPathToFinderURL(path: path) else { return }
+        let request = QLThumbnailGenerator.Request(fileAt: fileURL, size: CGSize(width: 48, height: 48), scale: 3, representationTypes: .thumbnail)
+        QLThumbnailGenerator.shared.generateBestRepresentation(for: request) { thumbnail, error in
+            if let error = error {
+                print(error)
+            }
+            print(thumbnail)
+            self.thumbnail = thumbnail?.nsImage
+        }
     }
     
     private func copyAction() {

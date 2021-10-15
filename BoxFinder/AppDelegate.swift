@@ -8,10 +8,16 @@
 import Foundation
 import AppKit
 import SwiftUI
+import Combine
 
 class AppDelegate: NSObject, NSApplicationDelegate {
     
     var error:String? = nil
+    
+    private let openSubject = PassthroughSubject<Bool, Never>()
+    var publisher:AnyPublisher<Bool, Never> {
+        openSubject.eraseToAnyPublisher()
+    }
     
     private var popover: NSPopover!
     private lazy var contentView = ContentView()
@@ -49,6 +55,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         guard let button = self.statusBarItem.button else { return }
         self.popover.show(relativeTo: button.frame, of: button, preferredEdge: NSRectEdge.minY)
         self.popover.contentViewController?.view.window?.becomeKey()
+        openSubject.send(true)
     }
 
     @objc func getUrl(_ event: NSAppleEventDescriptor, withReplyEvent replyEvent: NSAppleEventDescriptor) {
@@ -57,15 +64,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     func openInFinder(path:String) {
-        guard let dropboxURL = UserDefaults.appgroup?.url(forKey: UserDefaults.KEY.dropboxFolderURL) else {
+        guard let finderURL = URLManager.boxFinderPathToFinderURL(path: path) else {
             error = "Dropbox URL not configured"
             openPopover()
             return
         }
-        var dropboxEndPath = path.removingPercentEncoding ?? ""
-        dropboxEndPath.removeFirst(17)
         UserDefaults.appgroup?.savePathToHistory(path)
-        let finderURL = URL(fileURLWithPath: "\(dropboxURL.path)/\(dropboxEndPath)")
         if finderURL.isFileURL {
             NSWorkspace.shared.activateFileViewerSelecting([finderURL])
         } else {
