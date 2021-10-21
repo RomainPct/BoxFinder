@@ -21,7 +21,7 @@ struct ShareView: View {
         .padding(.all, 24)
         .background(Color.bfZ0.edgesIgnoringSafeArea(.all))
         .onAppear {
-            if getMessage() == "Link copied to the clipboard" {
+            if getMessage().contains("Link copied to the clipboard") {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
                     closeAction()
                 }

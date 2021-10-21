@@ -58,6 +58,10 @@ class ShareViewController: NSViewController {
             self.message = "Link copied to the clipboard"
         }
     }
+    
+    override func keyDown(with event: NSEvent) {
+        cancel()
+    }
 
     private func cancel() {
         self.extensionContext?.completeRequest(returningItems: [], completionHandler: nil)
