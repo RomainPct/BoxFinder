@@ -1,8 +1,8 @@
 //
 //  ShareViewController.swift
-//  BoxFinderShare
+//  BoxFinder Web Embed
 //
-//  Created by Romain Penchenat on 09/10/2021.
+//  Created by Romain Penchenat on 21/10/2021.
 //
 
 import Cocoa
@@ -53,10 +53,14 @@ class ShareViewController: NSViewController {
             }
             let sharePath = url.path.replacingOccurrences(of: dropboxFolderUrl.path, with: "").addingPercentEncoding(withAllowedCharacters: .urlPathAllowed) ?? ""
             let boxfinderPath = "boxfinder://root\(sharePath)"
-            print(boxfinderPath)
-            NSPasteboard.general.copyBoxFinderUrl(path: boxfinderPath)
+            guard let encodedBoxfinderPath = boxfinderPath.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else {
+                self.message = "BoxFinder failed to generate web link."
+                return
+            }
+            let webUrl = "https://beta.romainpenchenat.com?dest=\(encodedBoxfinderPath)"
+            NSPasteboard.general.copyBoxFinderUrl(path: webUrl)
             UserDefaults.appgroup?.savePathToHistory(boxfinderPath)
-            self.message = "Link copied to the clipboard"
+            self.message = "Web Embed Link copied to the clipboard"
         }
     }
 

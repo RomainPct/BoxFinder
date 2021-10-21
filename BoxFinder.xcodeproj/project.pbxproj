@@ -14,39 +14,55 @@
 		DE0665942718C333003EAA96 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0665932718C333003EAA96 /* IconButton.swift */; };
 		DE0665962718C3CE003EAA96 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0665952718C3CE003EAA96 /* HistoryCell.swift */; };
 		DE0665982718C66F003EAA96 /* NSPasteboard_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0665972718C66F003EAA96 /* NSPasteboard_extension.swift */; };
-		DE0665992718C6DE003EAA96 /* NSPasteboard_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0665972718C66F003EAA96 /* NSPasteboard_extension.swift */; };
 		DE06659C2718CD02003EAA96 /* URLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06659B2718CD02003EAA96 /* URLManager.swift */; };
 		DE14FD5B271190B20077CCF7 /* UserDefaults_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE14FD5A271190B20077CCF7 /* UserDefaults_extension.swift */; };
-		DE14FD5C271190B20077CCF7 /* UserDefaults_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE14FD5A271190B20077CCF7 /* UserDefaults_extension.swift */; };
 		DE1AFCBF271A172E00F1BE01 /* LauncherAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1AFCBE271A172E00F1BE01 /* LauncherAppDelegate.swift */; };
-		DE66144927183906008A0333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED9283B2710F9C90058C961 /* Assets.xcassets */; };
+		DE39FDD42721F7C6003680B7 /* RowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9284E2710FFBB0058C961 /* RowButton.swift */; };
+		DE39FDD72721F830003680B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED9283B2710F9C90058C961 /* Assets.xcassets */; };
 		DE66144B271839A8008A0333 /* Color_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE66144A271839A8008A0333 /* Color_extension.swift */; };
-		DE66144C27183E86008A0333 /* Color_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE66144A271839A8008A0333 /* Color_extension.swift */; };
-		DE66144D27183F6E008A0333 /* RowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9284E2710FFBB0058C961 /* RowButton.swift */; };
 		DE82BE83271A19150042A400 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE82BE82271A19150042A400 /* main.swift */; };
 		DE82BE85271A19B90042A400 /* BoxFinderLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = DE1AFCBC271A172E00F1BE01 /* BoxFinderLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DE82BE88271A19DD0042A400 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE82BE87271A19DD0042A400 /* ServiceManagement.framework */; platformFilter = maccatalyst; };
 		DE82BE8A271A1F9C0042A400 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE82BE89271A1F9C0042A400 /* Info.plist */; };
-		DE8DD3BC2714AD5A0091131B /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8DD3BB2714AD480091131B /* ShareView.swift */; };
+		DED8B9B82721F9AD0015DA1C /* BoxFinder Link.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DED8B9AB2721F9AD0015DA1C /* BoxFinder Link.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DED8B9BE2721F9F80015DA1C /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED8B9BD2721F9F80015DA1C /* ShareView.swift */; };
+		DED8B9BF2721F9FB0015DA1C /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED8B9BD2721F9F80015DA1C /* ShareView.swift */; };
+		DED8B9C12721FA1C0015DA1C /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DED8B9C02721FA1C0015DA1C /* ShareViewController.xib */; };
+		DED8B9C22721FA440015DA1C /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DED8B9C02721FA1C0015DA1C /* ShareViewController.xib */; };
+		DED8B9C42721FA790015DA1C /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED8B9C32721FA790015DA1C /* ShareViewController.swift */; };
 		DED9283A2710F9C70058C961 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED928392710F9C70058C961 /* ContentView.swift */; };
 		DED9283C2710F9C90058C961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED9283B2710F9C90058C961 /* Assets.xcassets */; };
 		DED9283F2710F9C90058C961 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED9283E2710F9C90058C961 /* Preview Assets.xcassets */; };
 		DED928472710F9E20058C961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED928462710F9E20058C961 /* AppDelegate.swift */; };
 		DED9284C2710FC210058C961 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9284B2710FC210058C961 /* main.swift */; };
 		DED9284F2710FFBB0058C961 /* RowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9284E2710FFBB0058C961 /* RowButton.swift */; };
-		DEE9095127110C0F002DB828 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = DEE9095027110C0F002DB828 /* icon.icns */; };
-		DEE9095327110C0F002DB828 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE9095227110C0F002DB828 /* ShareViewController.swift */; };
-		DEE9095627110C0F002DB828 /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEE9095427110C0F002DB828 /* ShareViewController.xib */; };
-		DEE9095B27110C0F002DB828 /* Copy BoxFinder link.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DEE9094E27110C0F002DB828 /* Copy BoxFinder link.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DEDF50302721429800BEC10A /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = DEDF502F2721429800BEC10A /* icon.icns */; };
+		DEDF50322721429800BEC10A /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDF50312721429800BEC10A /* ShareViewController.swift */; };
+		DEDF503A2721429800BEC10A /* BoxFinder Web Embed.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DEDF502D2721429800BEC10A /* BoxFinder Web Embed.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DEDF5040272142D100BEC10A /* UserDefaults_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE14FD5A271190B20077CCF7 /* UserDefaults_extension.swift */; };
+		DEDF50412721431000BEC10A /* NSPasteboard_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0665972718C66F003EAA96 /* NSPasteboard_extension.swift */; };
+		DEDF50422721431400BEC10A /* Color_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE66144A271839A8008A0333 /* Color_extension.swift */; };
+		DEE6D3222721FBA8000C6082 /* UserDefaults_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE14FD5A271190B20077CCF7 /* UserDefaults_extension.swift */; };
+		DEE6D3232721FBAE000C6082 /* Color_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE66144A271839A8008A0333 /* Color_extension.swift */; };
+		DEE6D3242721FBB5000C6082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED9283B2710F9C90058C961 /* Assets.xcassets */; };
+		DEE6D3262721FBC5000C6082 /* RowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9284E2710FFBB0058C961 /* RowButton.swift */; };
+		DEE6D3272721FBDC000C6082 /* NSPasteboard_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0665972718C66F003EAA96 /* NSPasteboard_extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DEE9095927110C0F002DB828 /* PBXContainerItemProxy */ = {
+		DED8B9B62721F9AD0015DA1C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DED9282C2710F9C70058C961 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DEE9094D27110C0F002DB828;
-			remoteInfo = BoxFinderShare;
+			remoteGlobalIDString = DED8B9AA2721F9AD0015DA1C;
+			remoteInfo = "BoxFinder Link";
+		};
+		DEDF50382721429800BEC10A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DED9282C2710F9C70058C961 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEDF502C2721429800BEC10A;
+			remoteInfo = "BoxFinder Web Embed";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -67,7 +83,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				DEE9095B27110C0F002DB828 /* Copy BoxFinder link.appex in Embed App Extensions */,
+				DED8B9B82721F9AD0015DA1C /* BoxFinder Link.appex in Embed App Extensions */,
+				DEDF503A2721429800BEC10A /* BoxFinder Web Embed.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,7 +108,12 @@
 		DE82BE82271A19150042A400 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DE82BE87271A19DD0042A400 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
 		DE82BE89271A1F9C0042A400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE8DD3BB2714AD480091131B /* ShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
+		DED8B9AB2721F9AD0015DA1C /* BoxFinder Link.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BoxFinder Link.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED8B9B42721F9AD0015DA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DED8B9B52721F9AD0015DA1C /* BoxFinder_Link.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BoxFinder_Link.entitlements; sourceTree = "<group>"; };
+		DED8B9BD2721F9F80015DA1C /* ShareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
+		DED8B9C02721FA1C0015DA1C /* ShareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareViewController.xib; sourceTree = "<group>"; };
+		DED8B9C32721FA790015DA1C /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		DED928342710F9C70058C961 /* BoxFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED928392710F9C70058C961 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DED9283B2710F9C90058C961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,16 +123,23 @@
 		DED928482710FAE60058C961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DED9284B2710FC210058C961 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DED9284E2710FFBB0058C961 /* RowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowButton.swift; sourceTree = "<group>"; };
-		DEE9094E27110C0F002DB828 /* Copy BoxFinder link.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Copy BoxFinder link.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEE9095027110C0F002DB828 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
-		DEE9095227110C0F002DB828 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
-		DEE9095527110C0F002DB828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ShareViewController.xib; sourceTree = "<group>"; };
-		DEE9095727110C0F002DB828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DEE9095827110C0F002DB828 /* BoxFinderShare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BoxFinderShare.entitlements; sourceTree = "<group>"; };
+		DEDF502D2721429800BEC10A /* BoxFinder Web Embed.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BoxFinder Web Embed.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDF502F2721429800BEC10A /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		DEDF50312721429800BEC10A /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		DEDF50362721429800BEC10A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDF50372721429800BEC10A /* BoxFinder_Web_Embed.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BoxFinder_Web_Embed.entitlements; sourceTree = "<group>"; };
+		DEE9095027110C0F002DB828 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = ../BoxFinderShare/icon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DE1AFCB9271A172E00F1BE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED8B9A82721F9AD0015DA1C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +154,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEE9094B27110C0F002DB828 /* Frameworks */ = {
+		DEDF502A2721429800BEC10A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,11 +237,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DED8B9AC2721F9AD0015DA1C /* BoxFinder Link */ = {
+			isa = PBXGroup;
+			children = (
+				DEE9095027110C0F002DB828 /* icon.icns */,
+				DED8B9B42721F9AD0015DA1C /* Info.plist */,
+				DED8B9B52721F9AD0015DA1C /* BoxFinder_Link.entitlements */,
+				DED8B9C32721FA790015DA1C /* ShareViewController.swift */,
+				DED8B9C02721FA1C0015DA1C /* ShareViewController.xib */,
+				DED8B9BD2721F9F80015DA1C /* ShareView.swift */,
+			);
+			path = "BoxFinder Link";
+			sourceTree = "<group>";
+		};
 		DED9282B2710F9C70058C961 = {
 			isa = PBXGroup;
 			children = (
 				DED928362710F9C70058C961 /* BoxFinder */,
-				DEE9094F27110C0F002DB828 /* BoxFinderShare */,
+				DED8B9AC2721F9AD0015DA1C /* BoxFinder Link */,
+				DEDF502E2721429800BEC10A /* BoxFinder Web Embed */,
 				DE1AFCBD271A172E00F1BE01 /* BoxFinderLauncher */,
 				DED928352710F9C70058C961 /* Products */,
 				DE82BE86271A19DD0042A400 /* Frameworks */,
@@ -223,8 +266,9 @@
 			isa = PBXGroup;
 			children = (
 				DED928342710F9C70058C961 /* BoxFinder.app */,
-				DEE9094E27110C0F002DB828 /* Copy BoxFinder link.appex */,
 				DE1AFCBC271A172E00F1BE01 /* BoxFinderLauncher.app */,
+				DEDF502D2721429800BEC10A /* BoxFinder Web Embed.appex */,
+				DED8B9AB2721F9AD0015DA1C /* BoxFinder Link.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -264,17 +308,15 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
-		DEE9094F27110C0F002DB828 /* BoxFinderShare */ = {
+		DEDF502E2721429800BEC10A /* BoxFinder Web Embed */ = {
 			isa = PBXGroup;
 			children = (
-				DEE9095027110C0F002DB828 /* icon.icns */,
-				DEE9095227110C0F002DB828 /* ShareViewController.swift */,
-				DEE9095427110C0F002DB828 /* ShareViewController.xib */,
-				DEE9095727110C0F002DB828 /* Info.plist */,
-				DEE9095827110C0F002DB828 /* BoxFinderShare.entitlements */,
-				DE8DD3BB2714AD480091131B /* ShareView.swift */,
+				DEDF502F2721429800BEC10A /* icon.icns */,
+				DEDF50362721429800BEC10A /* Info.plist */,
+				DEDF50372721429800BEC10A /* BoxFinder_Web_Embed.entitlements */,
+				DEDF50312721429800BEC10A /* ShareViewController.swift */,
 			);
-			path = BoxFinderShare;
+			path = "BoxFinder Web Embed";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +339,23 @@
 			productReference = DE1AFCBC271A172E00F1BE01 /* BoxFinderLauncher.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DED8B9AA2721F9AD0015DA1C /* BoxFinder Link */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED8B9B92721F9AD0015DA1C /* Build configuration list for PBXNativeTarget "BoxFinder Link" */;
+			buildPhases = (
+				DED8B9A72721F9AD0015DA1C /* Sources */,
+				DED8B9A82721F9AD0015DA1C /* Frameworks */,
+				DED8B9A92721F9AD0015DA1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BoxFinder Link";
+			productName = "BoxFinder Link";
+			productReference = DED8B9AB2721F9AD0015DA1C /* BoxFinder Link.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		DED928332710F9C70058C961 /* BoxFinder */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DED928432710F9C90058C961 /* Build configuration list for PBXNativeTarget "BoxFinder" */;
@@ -310,28 +369,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEE9095A27110C0F002DB828 /* PBXTargetDependency */,
+				DEDF50392721429800BEC10A /* PBXTargetDependency */,
+				DED8B9B72721F9AD0015DA1C /* PBXTargetDependency */,
 			);
 			name = BoxFinder;
 			productName = BoxFinder;
 			productReference = DED928342710F9C70058C961 /* BoxFinder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DEE9094D27110C0F002DB828 /* Copy BoxFinder link */ = {
+		DEDF502C2721429800BEC10A /* BoxFinder Web Embed */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEE9095F27110C0F002DB828 /* Build configuration list for PBXNativeTarget "Copy BoxFinder link" */;
+			buildConfigurationList = DEDF503D2721429800BEC10A /* Build configuration list for PBXNativeTarget "BoxFinder Web Embed" */;
 			buildPhases = (
-				DEE9094A27110C0F002DB828 /* Sources */,
-				DEE9094B27110C0F002DB828 /* Frameworks */,
-				DEE9094C27110C0F002DB828 /* Resources */,
+				DEDF50292721429800BEC10A /* Sources */,
+				DEDF502A2721429800BEC10A /* Frameworks */,
+				DEDF502B2721429800BEC10A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Copy BoxFinder link";
-			productName = BoxFinderShare;
-			productReference = DEE9094E27110C0F002DB828 /* Copy BoxFinder link.appex */;
+			name = "BoxFinder Web Embed";
+			productName = "BoxFinder Web Embed";
+			productReference = DEDF502D2721429800BEC10A /* BoxFinder Web Embed.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -347,10 +407,14 @@
 					DE1AFCBB271A172E00F1BE01 = {
 						CreatedOnToolsVersion = 13.0;
 					};
+					DED8B9AA2721F9AD0015DA1C = {
+						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
+					};
 					DED928332710F9C70058C961 = {
 						CreatedOnToolsVersion = 13.0;
 					};
-					DEE9094D27110C0F002DB828 = {
+					DEDF502C2721429800BEC10A = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
@@ -369,8 +433,9 @@
 			projectRoot = "";
 			targets = (
 				DED928332710F9C70058C961 /* BoxFinder */,
-				DEE9094D27110C0F002DB828 /* Copy BoxFinder link */,
 				DE1AFCBB271A172E00F1BE01 /* BoxFinderLauncher */,
+				DED8B9AA2721F9AD0015DA1C /* BoxFinder Link */,
+				DEDF502C2721429800BEC10A /* BoxFinder Web Embed */,
 			);
 		};
 /* End PBXProject section */
@@ -384,6 +449,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DED8B9A92721F9AD0015DA1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE6D3242721FBB5000C6082 /* Assets.xcassets in Resources */,
+				DED8B9C12721FA1C0015DA1C /* ShareViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DED928322710F9C70058C961 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -393,13 +467,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEE9094C27110C0F002DB828 /* Resources */ = {
+		DEDF502B2721429800BEC10A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEE9095627110C0F002DB828 /* ShareViewController.xib in Resources */,
-				DE66144927183906008A0333 /* Assets.xcassets in Resources */,
-				DEE9095127110C0F002DB828 /* icon.icns in Resources */,
+				DE39FDD72721F830003680B7 /* Assets.xcassets in Resources */,
+				DED8B9C22721FA440015DA1C /* ShareViewController.xib in Resources */,
+				DEDF50302721429800BEC10A /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +486,19 @@
 			files = (
 				DE82BE83271A19150042A400 /* main.swift in Sources */,
 				DE1AFCBF271A172E00F1BE01 /* LauncherAppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED8B9A72721F9AD0015DA1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE6D3222721FBA8000C6082 /* UserDefaults_extension.swift in Sources */,
+				DED8B9C42721FA790015DA1C /* ShareViewController.swift in Sources */,
+				DED8B9BE2721F9F80015DA1C /* ShareView.swift in Sources */,
+				DEE6D3272721FBDC000C6082 /* NSPasteboard_extension.swift in Sources */,
+				DEE6D3262721FBC5000C6082 /* RowButton.swift in Sources */,
+				DEE6D3232721FBAE000C6082 /* Color_extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,39 +523,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEE9094A27110C0F002DB828 /* Sources */ = {
+		DEDF50292721429800BEC10A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE8DD3BC2714AD5A0091131B /* ShareView.swift in Sources */,
-				DE14FD5C271190B20077CCF7 /* UserDefaults_extension.swift in Sources */,
-				DEE9095327110C0F002DB828 /* ShareViewController.swift in Sources */,
-				DE0665992718C6DE003EAA96 /* NSPasteboard_extension.swift in Sources */,
-				DE66144D27183F6E008A0333 /* RowButton.swift in Sources */,
-				DE66144C27183E86008A0333 /* Color_extension.swift in Sources */,
+				DED8B9BF2721F9FB0015DA1C /* ShareView.swift in Sources */,
+				DEDF50422721431400BEC10A /* Color_extension.swift in Sources */,
+				DEDF5040272142D100BEC10A /* UserDefaults_extension.swift in Sources */,
+				DE39FDD42721F7C6003680B7 /* RowButton.swift in Sources */,
+				DEDF50412721431000BEC10A /* NSPasteboard_extension.swift in Sources */,
+				DEDF50322721429800BEC10A /* ShareViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DEE9095A27110C0F002DB828 /* PBXTargetDependency */ = {
+		DED8B9B72721F9AD0015DA1C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DEE9094D27110C0F002DB828 /* Copy BoxFinder link */;
-			targetProxy = DEE9095927110C0F002DB828 /* PBXContainerItemProxy */;
+			target = DED8B9AA2721F9AD0015DA1C /* BoxFinder Link */;
+			targetProxy = DED8B9B62721F9AD0015DA1C /* PBXContainerItemProxy */;
+		};
+		DEDF50392721429800BEC10A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEDF502C2721429800BEC10A /* BoxFinder Web Embed */;
+			targetProxy = DEDF50382721429800BEC10A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		DEE9095427110C0F002DB828 /* ShareViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DEE9095527110C0F002DB828 /* Base */,
-			);
-			name = ShareViewController.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DE1AFCC9271A172F00F1BE01 /* Debug */ = {
@@ -490,6 +571,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.romainpenchenat.BoxFinderLauncher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,11 +600,73 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.romainpenchenat.BoxFinderLauncher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DED8B9BA2721F9AD0015DA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "BoxFinder Link/BoxFinder_Link.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AU9T7HA2AB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BoxFinder Link/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BoxFinder Link";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.romainpenchenat.BoxFinder.BoxFinder-Link";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DED8B9BB2721F9AD0015DA1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "BoxFinder Link/BoxFinder_Link.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AU9T7HA2AB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BoxFinder Link/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BoxFinder Link";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.romainpenchenat.BoxFinder.BoxFinder-Link";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -706,10 +850,10 @@
 			};
 			name = Release;
 		};
-		DEE9095D27110C0F002DB828 /* Debug */ = {
+		DEDF503B2721429800BEC10A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = BoxFinderShare/BoxFinderShare.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "BoxFinder Web Embed/BoxFinder_Web_Embed.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -717,16 +861,16 @@
 				DEVELOPMENT_TEAM = AU9T7HA2AB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BoxFinderShare/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = BoxFinderShare;
+				INFOPLIST_FILE = "BoxFinder Web Embed/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BoxFinder Web Embed";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MARKETING_VERSION = 0.3;
-				PRODUCT_BUNDLE_IDENTIFIER = com.romainpenchenat.BoxFinder.BoxFinderShare;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.romainpenchenat.BoxFinder.BoxFinder-Web-Embed";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -734,10 +878,10 @@
 			};
 			name = Debug;
 		};
-		DEE9095E27110C0F002DB828 /* Release */ = {
+		DEDF503C2721429800BEC10A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = BoxFinderShare/BoxFinderShare.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "BoxFinder Web Embed/BoxFinder_Web_Embed.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -745,16 +889,16 @@
 				DEVELOPMENT_TEAM = AU9T7HA2AB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BoxFinderShare/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = BoxFinderShare;
+				INFOPLIST_FILE = "BoxFinder Web Embed/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BoxFinder Web Embed";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MARKETING_VERSION = 0.3;
-				PRODUCT_BUNDLE_IDENTIFIER = com.romainpenchenat.BoxFinder.BoxFinderShare;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.romainpenchenat.BoxFinder.BoxFinder-Web-Embed";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -770,6 +914,15 @@
 			buildConfigurations = (
 				DE1AFCC9271A172F00F1BE01 /* Debug */,
 				DE1AFCCA271A172F00F1BE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DED8B9B92721F9AD0015DA1C /* Build configuration list for PBXNativeTarget "BoxFinder Link" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED8B9BA2721F9AD0015DA1C /* Debug */,
+				DED8B9BB2721F9AD0015DA1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -792,11 +945,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEE9095F27110C0F002DB828 /* Build configuration list for PBXNativeTarget "Copy BoxFinder link" */ = {
+		DEDF503D2721429800BEC10A /* Build configuration list for PBXNativeTarget "BoxFinder Web Embed" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEE9095D27110C0F002DB828 /* Debug */,
-				DEE9095E27110C0F002DB828 /* Release */,
+				DEDF503B2721429800BEC10A /* Debug */,
+				DEDF503C2721429800BEC10A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
