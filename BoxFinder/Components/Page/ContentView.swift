@@ -15,7 +15,7 @@ struct ContentView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             HStack {
-                Text("BoxFinder v0.3")
+                Text("BoxFinder v0.4")
                     .font(.title2)
                 Spacer()
             }
