@@ -11,7 +11,7 @@
 2. Open the project in XCode
 3. Play with it
 
-## [Support the creator of the app] (https://paypal.me/romainpenchenat)
+## [Support the creator of the app](https://paypal.me/romainpenchenat)
 
 
 
