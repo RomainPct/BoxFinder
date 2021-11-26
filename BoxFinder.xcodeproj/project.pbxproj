@@ -123,6 +123,7 @@
 		DED928482710FAE60058C961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DED9284B2710FC210058C961 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DED9284E2710FFBB0058C961 /* RowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowButton.swift; sourceTree = "<group>"; };
+		DEDCB4FD275107AB00285AD4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DEDF502D2721429800BEC10A /* BoxFinder Web Embed.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BoxFinder Web Embed.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEDF502F2721429800BEC10A /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		DEDF50312721429800BEC10A /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
@@ -253,6 +254,7 @@
 		DED9282B2710F9C70058C961 = {
 			isa = PBXGroup;
 			children = (
+				DEDCB4FD275107AB00285AD4 /* README.md */,
 				DED928362710F9C70058C961 /* BoxFinder */,
 				DED8B9AC2721F9AD0015DA1C /* BoxFinder Link */,
 				DEDF502E2721429800BEC10A /* BoxFinder Web Embed */,
