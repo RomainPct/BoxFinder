@@ -24,7 +24,6 @@ struct SettingsTab: View {
                 RowButton(text: "Change dropbox root folder", action: pickDropboxRootAction)
             }
             .padding(.horizontal, 16)
-            /*
             Toggle(isOn: $launchAtLogin) {
                 Text("Launch at login")
                     .font(.body)
@@ -33,10 +32,7 @@ struct SettingsTab: View {
             .onChange(of: launchAtLogin) { launchAtLogin in
                 SMLoginItemSetEnabled("com.romainpenchenat.BoxFinderLauncher" as CFString, launchAtLogin)
             }
-             */
             HStack(alignment: .center, spacing: 8) {
-//                RowButton(text: "Share the app", action: shareAction)
-//                RowButton(text: "Contact developers", action: contactAction)
                 RowButton(text: "Quit BoxFinder", action: exitAction)
             }
             .padding(.horizontal, 16)
